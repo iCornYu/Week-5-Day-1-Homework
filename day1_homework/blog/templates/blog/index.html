@@ -1,0 +1,6 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    {% for food in foods %}
+        <h3>{{ food }} </h3>
+    {% endfor %}
+{% endblock %}
